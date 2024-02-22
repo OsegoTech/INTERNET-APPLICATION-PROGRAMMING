@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1200px;
+    /* height: 50vh; */
+    margin:  20px auto;
+    background-color: #9c8f8f;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid #196adc;
+    padding: 20px 40px;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #196adc;
+    height: fit-content;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #196adc;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #196adc;
+    text-align: center;
+
+    &:focus{
+        outline: purple;
+        border: 2px solid purple;
+    }
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #196adc;
+    background-color: beige;
+    font-size: 20px;
+    cursor: pointer;
+    color: #196adc;
+    
+    &:hover{
+        color: white;
+        background-color: #196adc;
+    }
+}
+
+ul{
+    list-style: square;
+    /* list-style-type: disc; */
+    padding:20px 40px;
+    border-radius: 20px;
+    border: 2px solid #196adc;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+li{
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+    /* background-color: #d2dce9; */
+    color: rgb(14, 13, 13);
+    border-radius: 10px;
+    padding: 5px;
+}
